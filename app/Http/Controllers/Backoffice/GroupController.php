@@ -182,7 +182,7 @@ class GroupController extends Controller
         $group = Group::findOrFail($group->grup_id);
         $group->menuItems()->sync($dataMenu);
         $group->actions()->sync($dataAction);
-        $group->unitKerjas()->sync($dataWorkUnits);
+        $group->workUnits()->sync($dataWorkUnits);
 
         return redirect()->route('grup.permissionCreate', $group->grup_id)->with('success', 'Data berhasil ditambahkan!');
     }

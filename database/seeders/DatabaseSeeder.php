@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(GroupSeeder::class);
         $this->call(MenuSeeder::class);
         $this->call(MenuItemSeeder::class);
-        $this->call(WokrUnitSeeder::class);
+        $this->call(WorkUnitSeeder::class);
         $this->call(ActionSeeder::class);
         $this->call(UserSeeder::class);
         $this->call(GroupActionSeeder::class);

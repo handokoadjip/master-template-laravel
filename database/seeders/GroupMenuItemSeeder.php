@@ -63,6 +63,38 @@ class GroupMenuItemSeeder extends Seeder
                 'grup_menu_item_ubah' => 'ya',
                 'grup_menu_item_hapus' => 'ya'
             ],
+            [
+                'grup_menu_item_id' => 'aef54544-4270-4b14-a94a-39efd3a94f5b',
+                'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
+                'grup_menu_item_menu_item_id' => '528f1659-7b4b-4f34-a51e-8369306c659f',
+                'grup_menu_item_tambah' => 'tidak',
+                'grup_menu_item_ubah' => 'tidak',
+                'grup_menu_item_hapus' => 'tidak'
+            ],
+            [
+                'grup_menu_item_id' => '5066ecf3-7afc-4197-bb13-08d38bbe4fc4',
+                'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
+                'grup_menu_item_menu_item_id' => '5726673f-0332-4ba0-a877-b4c239066e8e',
+                'grup_menu_item_tambah' => 'ya',
+                'grup_menu_item_ubah' => 'ya',
+                'grup_menu_item_hapus' => 'ya'
+            ],
+            [
+                'grup_menu_item_id' => '0ebf7cb4-08b2-486d-9ba6-21dfe4006a94',
+                'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
+                'grup_menu_item_menu_item_id' => 'eb8086f8-b84f-4e8e-a0ff-1e0fe2a4c1f8',
+                'grup_menu_item_tambah' => 'ya',
+                'grup_menu_item_ubah' => 'ya',
+                'grup_menu_item_hapus' => 'ya'
+            ],
+            [
+                'grup_menu_item_id' => '858e2cf6-263d-4149-88e6-789369125fe7',
+                'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
+                'grup_menu_item_menu_item_id' => 'ccdae595-6d99-4b9d-a4d1-8864826fcba5',
+                'grup_menu_item_tambah' => 'ya',
+                'grup_menu_item_ubah' => 'ya',
+                'grup_menu_item_hapus' => 'ya'
+            ]
         ];
 
         DB::table('grup_menu_item')->insert($data);

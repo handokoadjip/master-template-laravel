@@ -24,4 +24,8 @@ require __DIR__ . '/backoffice/menu.php';
 require __DIR__ . '/backoffice/dashboard.php';
 require __DIR__ . '/backoffice/work-unit.php';
 
+require __DIR__ . '/example/crud.php';
+require __DIR__ . '/example/crudonetoone.php';
+require __DIR__ . '/example/crudonetomany.php';
+
 require __DIR__ . '/auth.php';
